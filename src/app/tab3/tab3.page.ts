@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-
-  constructor() {}
-
+  public lottieConfig: Object;
+  
+  constructor() {
+    this.lottieConfig = {
+      path: 'https://assets9.lottiefiles.com/packages/lf20_lVYMUQ.json',
+      renderer: 'canvas',
+      autoplay: true,
+      loop: true
+    };
+  }
 }

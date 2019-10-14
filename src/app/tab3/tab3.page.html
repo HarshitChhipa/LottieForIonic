@@ -6,4 +6,12 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <lottie-animation-view
+    [options]="lottieConfig"
+    [width]="300"
+    [height]="600"
+    (animCreated)="handleAnimation($event)"
+  >
+  </lottie-animation-view>
+</ion-content>

@@ -22,21 +22,4 @@ export class Tab2Page {
   handleAnimation(anim: any) {
     this.anim = anim;
   }
-
-  stop() {
-    this.anim.stop();
-  }
-
-  play() {
-    this.anim.play();
-  }
-
-  pause() {
-    this.anim.pause();
-  }
-
-  setSpeed(speed: number) {
-    this.animationSpeed = speed;
-    this.anim.setSpeed(speed);
-  }
 }
