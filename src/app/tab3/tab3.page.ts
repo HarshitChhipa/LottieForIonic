@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
   public lottieConfig: Object;
-  
+
   constructor() {
     this.lottieConfig = {
-      path: 'https://assets9.lottiefiles.com/packages/lf20_lVYMUQ.json',
+      path: 'assets/lottie-json/lf30_editor_lymLso.json',
       renderer: 'canvas',
       autoplay: true,
       loop: true
