@@ -10,7 +10,7 @@ export class Tab3Page {
 
   constructor() {
     this.lottieConfig = {
-      path: 'assets/lottie-json/lf30_editor_lymLso.json',
+      path: 'assets/lottie-json/lf30_editor_5Xhx9o.json',
       renderer: 'canvas',
       autoplay: true,
       loop: true
